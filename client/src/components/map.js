@@ -28,7 +28,7 @@ class MapTest extends React.Component {
     super(props);
     this.state = { 
       popup: null,
-      center: [-122.409, 37.78]
+      center: [-122.238, 37.80]
     };
   }
 
@@ -104,7 +104,7 @@ class MapTest extends React.Component {
           width: "100%"
         }}
         center={this.state.center}
-        zoom={[12]}> 
+        zoom={[10]}> 
 
 
 
